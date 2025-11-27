@@ -27,7 +27,7 @@ export const Blog: React.FC = () => {
         title: generatedData.title,
         excerpt: generatedData.excerpt,
         content: generatedData.content,
-        author: 'GeoMinera AI',
+        author: 'Minertech AI',
         date: new Date().toISOString().split('T')[0],
         imageUrl: `https://picsum.photos/800/600?random=${Date.now()}`, 
         tags: generatedData.tags || ['IA', 'Minería']

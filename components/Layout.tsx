@@ -34,7 +34,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
                 <Mountain size={24} strokeWidth={2.5} />
               </div>
               <div>
-                <h1 className="text-xl font-bold tracking-tight text-white">GEOMINERA</h1>
+                <h1 className="text-xl font-bold tracking-tight text-white">MINERTECH</h1>
                 <p className="text-xs text-mining-gold font-semibold tracking-widest group-hover:text-yellow-200 transition-colors">SOLUTIONS</p>
               </div>
             </div>
@@ -112,7 +112,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
                  <div className="w-8 h-8 bg-mining-gold rounded flex items-center justify-center text-mining-900">
                   <Mountain size={18} strokeWidth={2.5} />
                 </div>
-                <span className="text-lg font-bold text-white">GEOMINERA</span>
+                <span className="text-lg font-bold text-white">MINERTECH</span>
               </div>
               <p className="text-gray-500 text-sm">
                 Líderes en soluciones integrales para la industria minera moderna. Extracción responsable, tecnología de punta y seguridad garantizada.
@@ -130,14 +130,14 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
             <div>
               <h3 className="text-white font-semibold mb-4">Contacto</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>info@geominera.com</li>
+                <li>info@minertech.com</li>
                 <li>+56 2 2345 6789</li>
                 <li>Av. del Cobre 1234, Antofagasta, Chile</li>
               </ul>
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-600">
-            &copy; {new Date().getFullYear()} GeoMinera Solutions. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Minertech Solutions. Todos los derechos reservados.
           </div>
         </div>
       </footer>

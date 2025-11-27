@@ -125,7 +125,7 @@ export const marketTickerData = [
 // --- INFORMACIÓN DE CONTACTO ---
 export const contactInfo = {
     phone: '+56 2 2345 6789',
-    email: 'proyectos@geominera.com',
+    email: 'proyectos@minertech.com',
     addressLine1: 'Av. del Cobre 1234, Piso 5',
     addressLine2: 'Antofagasta, Chile',
     schedule: 'Lun-Vie, 9am - 6pm'
